@@ -1,40 +1,28 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .title{
   color: #00237C;
   margin: 0;
   padding: 0px;
-  margin-left: 20px;
+  
+}
+
+.list-oya{
+  color: #00237C;
+  text-align: right;
+  font-weight:bold;
+  display: flex;
 }
 
 .list{
-  color: #00237C;
-  text-align: right;
-  margin: 0px;
-  font-weight:bold;
-  position: relative;
-  top: -50px;
-  
-}
-.list1{
-  display: inline-block;
-  
-}
-.list2{
-  display: inline-block;
   margin-left: 20px;
+  list-style: none;
+}
   
-}
-.list3{
-  display: inline-block;
-  margin-left: 20px;
-  
-}
-.list4{
- display: inline-block;
- margin-left: 20px;
- margin-right: 80px;
-}
-
-
 
 .first-img{
   display: block;
